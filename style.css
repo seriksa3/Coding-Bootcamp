@@ -65,18 +65,19 @@ p {/*This applies to all the p tags in the document*/
     margin-right: 25px;
 }
 
-.float-right {/**/
+.float-right {/*This applies to the float-right class of the online-reputation div*/
     float: right;
     margin-left: 25px;
 }
 
-.content {
+.content {/*This style applies to all divs in the content class div*/
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+.benefits {/*This style applies to the every div in benefits class. 
+    This style allows for the values to be alligned on the right.*/
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -87,55 +88,55 @@ p {/*This applies to all the p tags in the document*/
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit-lead {/*This style applies to the benefits lead class.*/
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
+.benefit-brand {/*This style applies to the benefits lead class in the benefits div*/
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-cost {
+.benefit-cost {/*This style applies to the benefits cost class*/
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h3 {
+.benefit-lead h3 {/*This style applies to the h3 tag in the benefits lead class */
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
+.benefit-brand h3 {/*This style applies to the h3 tag in the benefits brand class*/
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-cost h3 {
+.benefit-cost h3 {/*This style applies to the h3 tag in the benefits-cost class*/
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead img {
+.benefit-lead img {/*This style applies to the image tag in the benefit-lead class*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
+.benefit-brand img {/*This style applies to the image tag in the benefits brand class*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-cost img {
+.benefit-cost img {/*This style applies to the image tag in the benefits-cost class*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.search-engine-optimization {
+.search-engine-optimization {/*This style applies to the search-engine-optimization class in the content div.*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -144,7 +145,7 @@ p {/*This applies to all the p tags in the document*/
     color: #ffffff;
 }
 
-.online-reputation-management {
+.online-reputation-management {/*This style applies to the online-reputation-management class in the content div*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -153,7 +154,7 @@ p {/*This applies to all the p tags in the document*/
     color: #ffffff;
 }
 
-.social-media-marketing {
+.social-media-marketing {/*This style applies to the social-media-marketing class in the content div */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -162,7 +163,7 @@ p {/*This applies to all the p tags in the document*/
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+.search-engine-optimization img {/*This style allows for chnages in the image of the  search-engine-optimization class */
     max-height: 200px;
 }
 
@@ -198,28 +199,4 @@ p {/*This applies to all the p tags in the document*/
 
 .footer h2 {
     font-size: 20px;
-}
-.top-button{
-    background-color:#2a607c;
-    margin: none;
-    border-bottom: none;
-    padding: 25px;
-    height: 90px;
-    width: 90px;
-    position:fixed center;
-    float: right;
-    border-radius:100px;
-    bottom: 70px;
-    fill: #2589bd;
-    max-width: 90px;
-    min-width: 90px;
-    font-size: 15px;
-    color: #2589bd;
-    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
-    margin-right: 0px;
-
-
-
-
 }
