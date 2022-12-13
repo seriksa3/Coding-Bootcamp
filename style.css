@@ -51,7 +51,8 @@ p {/*This applies to all the p tags in the document*/
     font-size: 16px;
 }
 
-.hero {/*This style applies to the hero class.It contains the main piture and its positioning */
+.hero {/*This style applies to the hero class.It contains the main piture and its positioning.
+    It allows for changes in the height, width*/
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -154,7 +155,7 @@ p {/*This applies to all the p tags in the document*/
     color: #ffffff;
 }
 
-.social-media-marketing {/*This style applies to the social-media-marketing class in the content div */
+.social-media-marketing {/*This style applies to the social-media-marketing class in the content div.*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -163,40 +164,40 @@ p {/*This applies to all the p tags in the document*/
     color: #ffffff;
 }
 
-.search-engine-optimization img {/*This style allows for chnages in the image of the  search-engine-optimization class */
+.search-engine-optimization img {/*This style allows for changes in the image of the search-engine-optimization class */
     max-height: 200px;
 }
 
-.online-reputation-management img {
+.online-reputation-management img {/*This style allows for changes in the online-reputation-management image*/
     max-height: 200px;
 }
 
-.social-media-marketing img {
+.social-media-marketing img {/*This style adjusts the max-height of the image in the social-media-marketing class */
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
+.search-engine-optimization h2 {/*This style applies to the h2 tag in the search-engine-optimization class*/
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
+.online-reputation-management h2 {/*This style applies to the h2 tag in the online-reputation-management class*/
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.social-media-marketing h2 {
+.social-media-marketing h2 {/*This style applies to the h2 tag in the social-media-marketing */
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.footer {
+.footer {/*This style applies to every element of the footer class*/
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+.footer h2 {/*This style applies to the h2 tag in the footer class*/
     font-size: 20px;
 }
